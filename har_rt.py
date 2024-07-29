@@ -184,7 +184,7 @@ def main():
             filtered_df = df[df.index >= df.index[-1] - window_size_ms / 1000.0]
             samples_mean = filtered_df.mean()
 
-            df_mean = pd.DataFrame(samples_mean.values.reshape(1, -1), columns=df.columns, index=[timestampsow])
+            df_mean = pd.DataFrame(samples_mean.values.reshape(1, -1), columns=df.columns, index=[timestamps[-1]])
             
             df_labelled = auto_label(df_mean)
 
