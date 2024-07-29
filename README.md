@@ -24,8 +24,9 @@ Automation of the EAWS score calculations for postural analysis using CSV files 
 ## 3. Action to Start Physical Load Assessment:
 
 1. Launch MVN Analyze Pro 2024 and follow the steps to add a model and calibration ([Tutorial Link](https://www.movella.com/tutorials)).
-2. Perform a recording (preferably with a camera input).
-3. Once the recording is ended, export file as ".mp4" (`File > Export File`) and save it in the directory where the python scripts of the Physical load assessment and posture recognition app are located (location A).
+2. In options > Network streamer, make sure that "joint angles", "euler angles" and "quaternions" are enabled.
+3. Perform a recording (preferably with a camera input).
+4. Once the recording is ended, export file as ".mp4" (`File > Export File`) and save it in the directory where the python scripts of the Physical load assessment and posture recognition app are located (location A).
  <p align="center">
    <img src="/resources/step3.jpg" alt="">
  </p>
