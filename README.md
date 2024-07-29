@@ -5,6 +5,7 @@ Physical Load Assessment methodologies used within the Wellficiency project
 
 ### Hardware:
 - Movella Xsens Awinda
+
 - Windows 10/11 system x64/x86
 
 ### Software:
